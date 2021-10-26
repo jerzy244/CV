@@ -1,6 +1,6 @@
 export const CVData = {
    personalData: {
-     name: 'John Doe',
+     name: 'Jerzy Nowakowski',
      contacts: [
        { type: 'email', value: 'john@example.com' },
        { type: 'phone', value: '+00 (123) 456 78 90' },

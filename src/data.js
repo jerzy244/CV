@@ -2,122 +2,87 @@ export const CVData = {
    personalData: {
      name: 'Jerzy Nowakowski',
      contacts: [
-       { type: 'email', value: 'john@example.com' },
-       { type: 'phone', value: '+00 (123) 456 78 90' },
-       { type: 'location', value: 'New York' },
-       { type: 'github', value: 'github.com/404' }
+       { type: 'email', value: 'jerzy.contact@protonmail.com' },
+       { type: 'phone', value: '+48 665 132 226' },
+       { type: 'location', value: 'Kraków' },
+       { type: 'github', value: 'https://github.com/jerzy244' }
      ]
    },
    sections: [
      {
        type: 'text',
-       title: 'Career Profile',
-       content: 'When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.',
+       title: 'Profil kandydata',
+       content: 'Od dłuższego czasu interesuje się programowaniem stron internetowych oraz ich pozycjonowaniem (SEO), a co za tym idzie również UX oraz UI witryn. Mam doświadczenie w prowadzeniu stron w mediach społecznościowych (jeden z projektów w których brałem udział obecnie ma zasięg ponad 100 tys. odbiorców). Posiadam podstawową znajomość języków: HTML, CSS. Nadal uczę się JavaScript’a. Posiadam szeroki zakres wiedzy z obszaru nowych technologii i nowych trendów technologicznych na rynku.',
        icon: 'usertie'
      },
      {
        type: 'common-list',
-       title: 'Education',
+       title: 'Wykształcenie',
        icon: 'graduation',
        items: [
+          {
+            title: 'Biologia',
+            authority: 'Uniwersytet Jagielloński',
+            rightSide: '2018 - 2019'
+          },
          {
-           title: 'Computer Engineering (BS)',
-           authority: 'University',
-           authorityWebSite: 'https://sample.edu',
-           rightSide: '2013 - 2017'
+           title: 'Zarządzanie',
+           authority: 'Wyższa Szkoła Zarządzania i Bankowości',
+           rightSide: '2020 - 2021'
          },
          {
-           title: 'Some Department (PHD)',
-           authority: 'Another University',
-           authorityWebSite: 'https://sample.edu',
-           rightSide: '2017 - Present'
+            title: 'Informatyka',
+            authority: 'Wyższa Szkoła Zarządzania i Bankowości',
+            rightSide: '2021 - obecnie'
          }
        ]
      },
      {
        type: 'experiences-list',
-       title: 'Experiences',
-       description: 'Optional',
+       title: 'Doświadczenie',
        icon: 'archive',
        items: [
          {
-           title: 'Lead Software Developer',
-           company: 'Some Company Example INC',
-           description: 'I\'m working as a lead developer yeeeey!',
-           companyWebSite: 'http://somecompanyexample.com',
+           title: 'Pomoc techniczna',
+           company: 'ARGE',
            companyMeta: '',
-           datesBetween: '2017.10 - Present',
-           descriptionTags: ['Javascript', 'React']
+           datesBetween: '06.2018 – 08.2018',
          },
          {
-           title: 'Software Developer',
-           company: 'Some Company Example INC',
-           description: 'I\'m using ReactJS and working as a front-end developer',
-           companyWebSite: 'http://somecompanyexample.com',
-           companyMeta: 'Little info about company',
-           datesBetween: '2016.8 - 2017.10'
-         },
-         {
-           title: 'Intern',
-           company: 'Some Software Example INC',
-           description: 'I was warming up.',
-           companyWebSite: 'http://someexamplecompany.com',
-           companyMeta: 'SF USA',
-           datesBetween: '2012.06 - 2012.10'
-         }
+            title: 'Zarządzanie Social Mediami',
+            company: 'Facebook',
+            description: 'Zarządzanie grupą o zasięgu 100 tys. członków',
+            companyMeta: '',
+          }
        ]
      },
      
      {
        type: 'common-list',
-       title: 'Conferences & Certificates',
-       description: '',
-       icon: 'comments',
-       items: [
-         {
-           title: 'Some Conferences / 2019',
-           authority: 'SomeConf',
-           authorityWebSite: 'https://www.someconf.somesome'
-         },
-         {
-           title: 'Some Conferences / 2019',
-           authority: 'SomeConf',
-           authorityMeta: 'Speaker',
-           authorityWebSite: 'https://www.someconf.somesome',
-           rightSide: 'test'
-         },
-         {
-           title: 'Some Conferences / 2012',
-           authorityMeta: 'Speaker'
-         }
-       ]
-     },
-     {
-       type: 'common-list',
-       title: 'Languages',
+       title: 'Języki obce',
        icon: 'language',
        items: [
          {
-           authority: 'English',
-           authorityMeta: 'Professional'
+           authority: 'Angielski',
+           authorityMeta: 'B2/C1'
          },
          {
-           authority: 'Spanish',
-           authorityMeta: 'Beginner'
+           authority: 'Niemiecki',
+           authorityMeta: 'B1'
          }
        ]
      },
      {
        type: 'tag-list',
-       title: 'Skills Proficiency',
+       title: 'Umiejętności',
        icon: 'rocket',
-       items: ['React', 'Javascript', 'CSS', 'SQL', 'SomeTech', 'CoolTech']
+       items: ['JavaScript', 'CSS', 'HTML', 'Bash', 'Linux', 'C', 'R Studio', 'Git', 'GIMP']
      },
      {
        type: 'tag-list',
-       title: 'Hobbies & Interests',
+       title: 'Moje hobby i zainteresowania',
        icon: 'cubes',
-       items: ['Photography', 'Poetry']
+       items: ['Fotografia', 'Nowe technologie', 'Grafika komputerowa']
      }
    ]
  }

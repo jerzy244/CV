@@ -12,7 +12,7 @@ export const CVData = {
      {
        type: 'text',
        title: 'Profil kandydata',
-       content: 'Od dłuższego czasu interesuje się programowaniem stron internetowych oraz ich pozycjonowaniem (SEO), a co za tym idzie również UX oraz UI witryn. Mam doświadczenie w prowadzeniu stron w mediach społecznościowych (jeden z projektów w których brałem udział obecnie ma zasięg ponad 100 tys. odbiorców). Posiadam podstawową znajomość języków: HTML, CSS. Nadal uczę się JavaScript’a. Posiadam szeroki zakres wiedzy z obszaru nowych technologii i nowych trendów technologicznych na rynku.',
+       content: 'Od dłuższego czasu interesuję się programowaniem stron internetowych oraz ich pozycjonowaniem (SEO), a co za tym idzie również UX oraz UI witryn. Mam doświadczenie w prowadzeniu stron w mediach społecznościowych (jeden z projektów w których brałem udział obecnie ma zasięg ponad 100 tys. odbiorców). Posiadam podstawową znajomość języków: HTML, CSS. Nadal uczę się JavaScript’a. Posiadam szeroki zakres wiedzy z obszaru nowych technologii i nowych trendów technologicznych na rynku.',
        icon: 'usertie'
      },
      {
